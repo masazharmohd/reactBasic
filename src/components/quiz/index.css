@@ -1,0 +1,48 @@
+.main {
+    margin: 10px;
+    /* width: 100vw; */
+}
+.header {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.logo{
+    width: 70%;
+    text-align: left;
+}
+.scoreBorad {
+    width: 15%;
+}
+.buttonDive{
+    width: 15%;
+}
+.btn{
+    background: blue;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.formDiv label{
+    width: 30%;
+    margin-top: 10px;
+    text-align: left;
+}
+.formDiv input{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.formDiv .btn{
+    width: 15%;
+    margin-top: 10px;
+}
